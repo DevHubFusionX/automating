@@ -1,8 +1,9 @@
 services:
   - type: web
-    name: facebook-auto-liker
+    name: facebook-auto-liker-backend
     env: node
-    buildCommand: npm run install-backend
+    rootDir: ./backend
+    buildCommand: npm install
     startCommand: npm start
     envVars:
       - key: NODE_ENV
