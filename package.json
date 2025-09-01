@@ -1,0 +1,21 @@
+{
+  "name": "facebook-auto-liker",
+  "version": "1.0.0",
+  "description": "Facebook automation system for multi-account management and auto-liking",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "dev": "cd backend && npm run dev",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd vite-project && npm install",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "build": "cd vite-project && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevHubFusionX/automating.git"
+  },
+  "keywords": ["facebook", "automation", "auto-liker", "puppeteer", "nodejs"],
+  "author": "DevHubFusionX",
+  "license": "MIT"
+}
