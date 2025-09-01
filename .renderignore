@@ -1,0 +1,4 @@
+vite-project/
+*.md
+.git/
+.gitignore
