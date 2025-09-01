@@ -4,12 +4,11 @@
   "description": "Facebook automation system for multi-account management and auto-liking",
   "main": "backend/server.js",
   "scripts": {
-    "start": "cd backend && npm start",
+    "start": "cd backend && node server.js",
     "dev": "cd backend && npm run dev",
     "install-backend": "cd backend && npm install",
-    "install-frontend": "cd vite-project && npm install",
-    "install-all": "npm run install-backend && npm run install-frontend",
-    "build": "cd vite-project && npm run build"
+    "postinstall": "npm run install-backend",
+    "build": "npm run install-backend"
   },
   "repository": {
     "type": "git",
